@@ -46,7 +46,7 @@ namespace Order.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("Order.API.Models.OrderItem", b =>
@@ -73,12 +73,12 @@ namespace Order.API.Migrations
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("OrderItems");
+                    b.ToTable("OrderItems", (string)null);
                 });
 
             modelBuilder.Entity("Order.API.Models.Order", b =>
                 {
-                    b.OwnsOne("Order.API.Models.Address", "Address", b1 =>
+                    b.OwnsOne("Order.API.Models.Order.Address#Order.API.Models.Address", "Address", b1 =>
                         {
                             b1.Property<int>("OrderId")
                                 .HasColumnType("integer");
@@ -97,7 +97,7 @@ namespace Order.API.Migrations
 
                             b1.HasKey("OrderId");
 
-                            b1.ToTable("Orders");
+                            b1.ToTable("Orders", (string)null);
 
                             b1.WithOwner()
                                 .HasForeignKey("OrderId");

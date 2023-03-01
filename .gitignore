@@ -12,3 +12,5 @@ Release/
 *.log
 TestResult.xml
 *.VisualState.xml
+/.vs/ProjectEvaluation
+/.vs/slnx.sqlite
