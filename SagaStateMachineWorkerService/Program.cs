@@ -17,9 +17,8 @@ IHost host = Host.CreateDefaultBuilder(args)
             {
                 opt.AddDbContext<DbContext, OrderStateDbContext>((provider, builder) =>
                 {
-                    builder.UseNpgsql(hostcontext.Configuration.GetConnectionString("PostgresqlConnection"),m=>m.MigrationsAssembly(Assembly.GetExecutingAssembly().GetName().Name));
+                    builder.UseSqlServer(hostcontext.Configuration.GetConnectionString("SQLConnection"));
                 });
-                AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
             });
 
             cfg.UsingRabbitMq((context,config)=>

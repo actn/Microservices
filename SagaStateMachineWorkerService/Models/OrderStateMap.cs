@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SagaStateMachineWorkerService.Models
 {
-    public class OrderStateMap:SagaClassMap<OrderStateInstance>
+    public class OrderStateMap: SagaClassMap<OrderStateInstance>
     {
         protected override void Configure(EntityTypeBuilder<OrderStateInstance> entity, ModelBuilder model)
         {

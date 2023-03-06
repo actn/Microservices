@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shared
+namespace Shared.Interfaces
 {
-    public class PaymentSucceededEvent
+    public interface IOrderRequestCompletedEvent
     {
         public int OrderId { get; set; }
-        public string BuyerId { get; set; }
     }
 }
