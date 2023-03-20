@@ -1,0 +1,12 @@
+D:\workspace\Microservices\EventSourcing.Shared\bin\Debug\net7.0\EventSourcing.Shared.deps.json
+D:\workspace\Microservices\EventSourcing.Shared\bin\Debug\net7.0\EventSourcing.Shared.dll
+D:\workspace\Microservices\EventSourcing.Shared\bin\Debug\net7.0\EventSourcing.Shared.pdb
+D:\workspace\Microservices\EventSourcing.Shared\obj\Debug\net7.0\EventSourcing.Shared.csproj.AssemblyReference.cache
+D:\workspace\Microservices\EventSourcing.Shared\obj\Debug\net7.0\EventSourcing.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\Microservices\EventSourcing.Shared\obj\Debug\net7.0\EventSourcing.Shared.AssemblyInfoInputs.cache
+D:\workspace\Microservices\EventSourcing.Shared\obj\Debug\net7.0\EventSourcing.Shared.AssemblyInfo.cs
+D:\workspace\Microservices\EventSourcing.Shared\obj\Debug\net7.0\EventSourcing.Shared.csproj.CoreCompileInputs.cache
+D:\workspace\Microservices\EventSourcing.Shared\obj\Debug\net7.0\EventSourcing.Shared.dll
+D:\workspace\Microservices\EventSourcing.Shared\obj\Debug\net7.0\refint\EventSourcing.Shared.dll
+D:\workspace\Microservices\EventSourcing.Shared\obj\Debug\net7.0\EventSourcing.Shared.pdb
+D:\workspace\Microservices\EventSourcing.Shared\obj\Debug\net7.0\ref\EventSourcing.Shared.dll

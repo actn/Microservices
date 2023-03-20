@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Luh6pofAVGM/ZJlWM3P9EwTzwdMPQHbizCp3eaSzkQw=",
+  "Source": "EventSourcing.API",
+  "BasePath": "_content/EventSourcing.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
